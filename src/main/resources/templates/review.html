@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-	<title>h</title>
+	<title th:text="${review.title}">Review Title</title>
 </head>
 <body>
-
+	<header>
+		<h1 th:text="${review.title}">Review Title</h1>
+		<ul>
+			<li><a href="/reviews">Reviews</a></li>
+		</ul>
+	</header>
+	<main>
+		<figure>
+			<img th:src="${review.imageUrl}" style="width: 500px; height:auto" alt=""> <!-- Ask about alts/captions for situations like this. Just include it in the Review class? -->
+		</figure>
+		<p th:text="${review.content}">[Text]</p>
+		<p>Category: <span th:text="${review.category}">category</span></p>
+	</main>
 </body>
 </html>

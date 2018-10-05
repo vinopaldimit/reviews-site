@@ -16,7 +16,8 @@
 	- accessor methods 
 	- ideas to add:
 		- date
-		- tags
+		- tags (STRETCH GOAL)
+		- image description and caption
 - ReviewRepository (FINISHED)
 	- stores reviews in a map
 	- get collection
@@ -26,6 +27,6 @@
 ## View
 - reviews (FINISHED)
 	- shows all reviews
-- review
+- review (FINISHED)
 	- shows all details
 	- shows picture
