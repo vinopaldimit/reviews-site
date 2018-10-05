@@ -13,11 +13,11 @@
 	- content 
 	- desc (used in reviews)
 	- constructor 
+		- one that isn't used except for testing
+		- one with more variables passed through
 	- accessor methods 
-	- ideas to add:
-		- date
-		- tags (STRETCH GOAL)
-		- image description and caption
+	- tags stored in an array
+	- tagString variable to display tags on view
 - ReviewRepository (FINISHED)
 	- stores reviews in a map
 	- get collection

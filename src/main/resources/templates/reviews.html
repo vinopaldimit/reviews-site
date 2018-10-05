@@ -10,6 +10,7 @@
 	<main>
 		<div th:each="review: ${reviews}">
 			<a th:href="|/reviews/${review.id}|" th:text="${review.title}">Title</a>
+			<p>Category: <span th:text="${review.category}">Category</span></p>
 			<p th:text="|${review.desc} ...|"></p>
 		</div>
 	</main>
