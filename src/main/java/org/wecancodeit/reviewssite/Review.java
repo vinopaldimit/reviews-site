@@ -3,7 +3,7 @@ package org.wecancodeit.reviewssite;
 
 public class Review {
 	Long id;
-	String title, imageUrl, content, category;
+	String title, imageUrl, content, category, desc;
 	
 	public Review(Long id, String title, String imageUrl, String content, String category) {
 		this.id = id;
@@ -11,6 +11,7 @@ public class Review {
 		this.imageUrl = imageUrl;
 		this.content = content;
 		this.category = category;
+		this.desc = content.substring(0, 40);
 	}
 
 	public Long getId() {
@@ -31,6 +32,10 @@ public class Review {
 
 	public String getCategory() {
 		return category;
+	}
+	
+	public String getDesc() {
+		return desc;
 	}
 
 	@Override

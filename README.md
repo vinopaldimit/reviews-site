@@ -1,22 +1,22 @@
 ## Controller
-- ReviewsController
+- ReviewsController (FINISHED)
 	- annotation
 	- route reviews
 	- route review
 
 ## Model
-- Review
-	- id .
-	- title .
-	- image url .
-	- review category .
-	- content .
-	- optional
+- Review (FINISHED)
+	- id 
+	- title 
+	- image url 
+	- review category 
+	- content 
+	- desc (used in reviews)
+	- constructor 
+	- accessor methods 
+	- ideas to add:
 		- date
-		- desc
-		- tags (searchable?)
-	- constructor .
-	- accessor methods .
+		- tags
 - ReviewRepository (FINISHED)
 	- stores reviews in a map
 	- get collection
@@ -24,7 +24,7 @@
 	- proper annotations
 
 ## View
-- reviews
+- reviews (FINISHED)
 	- shows all reviews
 - review
 	- shows all details
